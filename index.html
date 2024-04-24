@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="stopwatch text-center border border-3  rounded ">
+                    <div class="display">
+                        <span id="display">00:00:00</span>
+
+                    </div>
+                    <div class="controls">
+                        <button id="startBtn" class="btn btn-success">Start</button>
+                        <button id="pauseBtn" class="btn btn-primary" disabled>Pause</button>
+                        <button id="resetBtn" class="btn btn-danger" disabled>Reset</button>
+                        <button id="lapBtn" class="btn btn-light" disabled>Lap</button>
+                    </div>
+                    <ul id="lapList" class="list-group mt-3"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
